@@ -1,0 +1,40 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+	background-repeat: no-repeat;
+}
+/* CSS Document */
+body {
+  background: linear-gradient(#FFF, #d1f3b3);
+  background-repeat: no-repeat;
+}
+nav ul {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 3%;
+  width: 94%;
+  max-width: 960px;
+}
+nav ul li {
+	margin: 50px 0 0 0;
+  position: relative;
+  float: left;
+  width: 16%;
+}
+nav ul li a {
+  display: block;
+  padding: 17px 5%;
+  width: 90%;
+	height: 80px;
+  text-align: center;
+  text-decoration: none;
+}
+#nav_logo {
+	background-image: url("../image/nav_haikei_01.png"),url("../image/dreamland.png");
+	
+}
+#nav_attractions{
+	background-image: url("../image/nav_haikei_02.png")
+}
