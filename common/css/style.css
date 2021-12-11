@@ -9,32 +9,166 @@
 body {
   background: linear-gradient(#FFF, #d1f3b3);
   background-repeat: no-repeat;
+text-align: center;
+}
+.header_nav{
+}
+#aside_Area,#header_nav_Area{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
 }
 nav ul {
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 0 3%;
-  width: 94%;
-  max-width: 960px;
+	display: block;
+	margin: 0 auto;
+	position: absolute;
 }
 nav ul li {
-	margin: 50px 0 0 0;
-  position: relative;
   float: left;
-  width: 16%;
 }
 nav ul li a {
-  display: block;
-  padding: 17px 5%;
   width: 90%;
 	height: 80px;
   text-align: center;
   text-decoration: none;
 }
 #nav_logo {
-	background-image: url("../image/nav_haikei_01.png"),url("../image/dreamland.png");
+	width: 230px;
+	height: 80px;
+	background-color: #ffffff;
+	border: 4px #aeaeae ;
+	border-style: solid;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-right-style: dashed;
 	
 }
+.dreamland_logo{
+	margin-left: 15px
+}
 #nav_attractions{
-	background-image: url("../image/nav_haikei_02.png")
+	width: 190px;
+	height: 80px;
+	background-color: #ffffff;
+	border: 4px #aeaeae ;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: dashed;
+}
+#nav_calender{
+	width: 190px;
+	height: 80px;
+	background-color: #ffffff;
+	border: 4px #aeaeae ;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: dashed;
+}
+#nav_event{
+	width: 190px;
+	height: 80px;
+	background-color: #ffffff;
+	border: 4px #aeaeae ;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: dashed;
+}
+#nav_access{
+	width: 190px;
+	height: 80px;
+	background-color: #ffffff;
+	border: 4px #aeaeae ;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: dashed;
+}
+#nav_ticket{
+	width: 150px;
+	height: 80px;
+	background-color: #ffffff;
+	border: 4px #aeaeae ;
+	border-style: solid;
+	border-left-style: none;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+}
+.attractions_text{
+	font-size: 22px;
+	margin-left: 10px;
+}
+.calende_text{
+	font-size: 22px;
+	margin-left: 10px;
+}
+.event_text{
+	font-size: 22px;
+}
+.access_text{
+	font-size: 22px;
+}
+.ticket_text{
+	font-size: 22px;
+}
+
+aside{
+	
+	border-radius: 30px;
+	width: 300px;
+	height: 1000px;
+	background-color: #dfead4;
+}
+aside div, aside img{
+	margin: 40px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	width: 100%;
+	height: 300px;
+	background-color: #187000;
+	border-top: 10px solid #f6ff00;
+	
+	bottom: 0;
+}
+footer ul {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 0;
+}
+footer ul li{
+	display: block;
+	margin: 20px 0 0 0;
+  float: left;
+	overflow: hidden;
+}
+footer ul li a{
+	color: #FFFFFF;
+	font-size: 25px;
+	text-align: center;
+	margin: 0 0 0 5px;
+	text-decoration: none;
+}
+footer ul li div{
+	margin: 6px 0 0 50px;
+	float: left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13px 0 13px 17px;
+	border-color: transparent transparent transparent #fff200;
+	overflow: hidden;
+}
+.copyright{
+	float: left;
+	margin:130px -600px;
+	color: #FFFFFF;
+	font-size: 20px;}
+/*index.html*/
+#header_slideshow img{
+	
+	z-index: 0;
+	position: 0;
+	width: 100%;
 }
